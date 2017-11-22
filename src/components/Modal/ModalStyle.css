@@ -1,0 +1,18 @@
+.btn{
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  width: none;
+  border: none;
+  padding: none;
+  margin: none;
+  }
+
+.navgrp2 {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 18px 18px;
+  text-decoration: none;
+}

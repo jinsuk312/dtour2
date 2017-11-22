@@ -1,0 +1,69 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position:fixed;
+    z-index:10;
+    width:100%;
+    /* height: 10%; */
+}
+
+li {
+    float: left;
+}
+
+li:last-child { float: right; }
+
+.navgrp1 {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 18px;
+    text-decoration: none;
+}
+
+.btn {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    width: none;
+    border: none;
+    padding: none;
+    margin: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: black;
+}
+img{
+    width:25px;
+    height:25px;
+
+}
+
+
+/* 
+@media screen and (max-width: 600px) {
+     ul li:not(:first-child) {display: none;}
+     ul li.icon {
+      float: right;
+      display: block;
+    }
+}
+@media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive ul.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive ul {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}   */
